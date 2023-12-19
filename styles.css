@@ -1,0 +1,108 @@
+/* Step 2: Add CSS */
+body {
+  margin: 0;
+  padding: 0;
+}
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+.filter_buttons {
+  z-index: 1000;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.button {
+  background-color: bisque;
+  margin: 2px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.active {
+  background-color: #fff !important;
+}
+
+#tooltip {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border-radius: 5px;
+}
+
+.w-layout-grid {
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
+
+.container-tooltip {
+  width: 350px;
+  min-height: 100px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  flex-direction: column;
+  padding: 13px;
+  display: flex;
+}
+
+.grid {
+  grid-template-rows: auto;
+  align-items: center;
+}
+
+.heading {
+  text-align: right;
+  font-family: Lato, sans-serif;
+  font-weight: 900;
+}
+
+.output {
+  font-family: Lato, sans-serif;
+}
+
+.div-block {
+  border: 1px solid #911313;
+  padding: 10px;
+  
+}
+
+.heading-2 {
+  text-align: center;
+  margin: 5px;
+  font-family: Lato, sans-serif;
+  font-size: 25px;
+}
+
+.div-block-2 {
+  width: 100%;
+  height: 2px;
+  background-color: #5c5c5c;
+}
+
+#w-node-_45f3aa0e-8e2a-2a56-c3d5-225c1a3689fd-84b7b51f,
+#operation.w-node-da05ebef-62d7-4b80-a7ae-31c117f98d74-84b7b51f,
+#w-node-c68851b9-cacb-7235-9599-ac6dbd174777-84b7b51f,
+#construction.w-node-c68851b9-cacb-7235-9599-ac6dbd174779-84b7b51f,
+#w-node-_84d03185-a677-2cdf-1c57-72021d5740a4-84b7b51f,
+#enrich.w-node-_84d03185-a677-2cdf-1c57-72021d5740a6-84b7b51f,
+#w-node-ed17440e-50f9-419a-2ad5-047eadb82dda-84b7b51f,
+#repro.w-node-ed17440e-50f9-419a-2ad5-047eadb82ddc-84b7b51f,
+#w-node-e7bebd4c-c6e0-4a51-cdb9-e5b117564b57-84b7b51f,
+#npt.w-node-e7bebd4c-c6e0-4a51-cdb9-e5b117564b59-84b7b51f,
+#w-node-eb136aa8-719b-6897-a9cb-0aecdad314fc-84b7b51f,
+#outside-npt.w-node-eb136aa8-719b-6897-a9cb-0aecdad314fe-84b7b51f {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
